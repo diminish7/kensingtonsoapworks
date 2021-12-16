@@ -1,0 +1,31 @@
+<div class="content">
+  <div class="photo">
+    <%= image_tag('photo_soapmaker.png', alt: t('.header')) %>
+  </div>
+  <div class="text">
+    <%= image_tag('header_soapmaker.gif') %>
+    <p><%= t('.paragraph1') %></p>
+    <p><%= t('.contact') %> <%= mail_to 'soapmaker@kensingtonsoapworks.com' %></p>
+
+    <%= image_tag('header_special_features.gif') %>
+    <p><%= t('.paragraph2') %></p>
+    <ul>
+      <li><%= t('.list_item1') %></li>
+      <li>
+        <%= t('.list_item2') %>
+        <br>
+        <%= t('.list_item2_footnote') %>
+      </li>
+      <li><%= t('.list_item3') %></li>
+      <li>
+        <%= t('.list_item4') %>
+        <br>
+        <%= t('.list_item4_footnote') %>
+      </li>
+      <li><%= t('.list_item5') %></li>
+      <li><%= t('.list_item6') %></li>
+      <li><%= t('.list_item7') %></li>
+      <li><%= t('.list_item8') %></li>
+    </ul>
+  </div>
+</div>

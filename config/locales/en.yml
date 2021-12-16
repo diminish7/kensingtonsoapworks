@@ -1,33 +1,85 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  site:
+    title: Kensington Soap Works
+  menu:
+    handmade: Handmade
+    natural: Natural
+    soapmaker: Soapmaker
+    purchase: Purchase
+  handmades:
+    show:
+      header: The Soapmaking Process
+      paragraph: >
+        The soapmaking process is very low impact on the environment, meaning that we don't use
+        motorized or carbon-intensive equipment. The only non-manual power required is a small
+        electric burner to melt the oils on low heat for about 15 minutes per batch. Every other
+        step in the process is done by hand.
+      process_header: 'In my "soap cellar" here is the process I use:'
+      list_item1: Measure all ingredients precisely using a digital scale.
+      list_item2: Dissolve lye in water. The chemical reaction creates a lot of heat.
+      list_item3: Melt the oils over low heat.
+      list_item4: When oils have reached 80 degrees, I add the grapefruit seed extract.
+      list_item5: Get both water and oil to be exactly 80 degrees.
+      list_item6: When at 80 degrees, add the water to the oil.
+      list_item7: 'Stir until the mixture "traces" or leaves a faint impression on the surface.'
+      list_item8: Add any nutrients and essential oils.
+      list_item9: Pour the mixture into a wooden rectangular mold, or into separate molds.
+      list_item10: Cover the mold with blankets for 24 hours to complete the saponification.
+      list_item11: >
+        If using a rectangular mold, cut into long bars after about a week, then into short bars
+        after another week, then cure for another three weeks.
+      list_item12: >
+        After about a total of six weeks, unmold and trim each bar by hand to remove the white
+        coating.
+      list_item13: Print labels and wrap each bar.
+  naturals:
+    show:
+      header: Natural
+      paragraph1: >
+        We provide natural, environmentally sustainable, rejuvenating soap products. Like so many
+        products in our everyday lives, the modern equivalent of our ancestors' soap is not an
+        improvement.
+      paragraph2: >
+        Many commercial soaps contain harmful synthetic chemicals and tallow (an animal product).
+        By using natural and inherently safe ingredients, we protect our bodies and our environment.
+      paragraph3: >
+        These soaps promote a healthy environment. We don't use harmful synthetic chemicals; only
+        high quality natural (mostly organic) ingredients. No animal products are used,* and there
+        is no animal testing.
+      paragraph4: >
+        Environmental impacts include the transportation of supplies (usually by mail), the
+        transportation of the soap (also usually by mail), and the hot water used for cleaning the
+        soapmaking equipment.
+      paragraph4_footnote: '*Oatmeal Honey soap contains honey.'
+      paragraph5: >
+        The base for all of my soaps is the same luxurious mixture.  To this base I add a variety
+        of natural nutrients (such as Vitamin E) and pure essential oils for scent:
+      list_item1: Olive Oil
+      list_item2: Palm Oil
+      list_item3: Coconut Oil
+      list_item4: Distilled Water
+      list_item5: Sodium Hydroxide (Lye)
+      list_item6: Grapefruit Seed Extract
+      list_item6_footnote: (as a natural preservative)
+  soapmakers:
+    show:
+      header: Soapmaker
+      paragraph1: >
+        Kensington Soap Works soaps are handmade by a single soapmaker at her home in Kensington, a
+        small community in the San Francisco Bay Area next to Berkeley, Albany and El Cerrito in the
+        East Bay Hills.
+      paragraph2: 'Kensington Soap Works is special because:'
+      contact: 'The soapmaker can be contacted at:'
+      list_item1: All ingredients are natural, not synthetic
+      list_item2: Most ingredients are organic
+      list_item2_footnote: (although I don't certify my soap as organic)
+      list_item3: All soaps are vegan (except Oatmeal Honey)
+      list_item4: No animal testing
+      list_item4_footnote: (unless you count testing on my husband!)
+      list_item5: Environmentally-friendly packaging
+      list_item6: The soap is made in small batches
+      list_item7: All steps in the soapmaking process are done by hand by a single soapmaker
+      list_item8: It is a woman-owned business
+  purchases:
+    show:
+      contact: For information on purchasing Kensington Soap Works handcrafted soaps please contact
